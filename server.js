@@ -32,16 +32,7 @@ const { initPassport } = require('./middlewares/passport.js')
 
 const compression = require('compression')
 
-const winston = require('winston')
-const logger = winston.createLogger({
-  level: 'warn',
-  transports : [
-      new winston.transports.Console({ level:'verbose' }),
-      new winston.transports.File({ filename: 'info.log', level:'info' }),
-      new winston.transports.File({ filename: 'warn.log', level: 'warning' }),
-      new winston.transports.File({ filename: 'error.log', level: 'error' })
-  ]
-})
+const logger = require('./utils/winston.js')
 
 // const parseArgs = require('minimist')
 // const args = parseArgs(process.argv.slice(2))

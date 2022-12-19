@@ -1,3 +1,4 @@
+const logger = require('./winston.js')
 
 const calculo = () => {
     let obj = {}

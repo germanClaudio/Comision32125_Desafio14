@@ -7,7 +7,7 @@ const routerfProductos = Router()
 const products = new Products()
 
 const checkAtuhentication = (req, res, next) => {
-    console.log(req.isAuthenticated())
+    //console.log(req.isAuthenticated())
     if (req.isAuthenticated()) return next();
     res.redirect("/api/auth/login");
 }
@@ -30,7 +30,7 @@ routerfProductos.get('/:id', (req, res) => {
 
 routerfProductos.post('/', (req, res) => {
     // const productos = new Products
-    console.log(req.body)
+    //console.log(req.body)
     const producto = products.createProduct(req.body) //addProduct
     res.status(201).json(producto)
 })

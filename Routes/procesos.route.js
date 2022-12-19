@@ -2,7 +2,7 @@ const { Router } = require('express')
 const procesosRouter = Router()
 
 const port = process.env.PORT //process.argv.slice(2)[0]
-const mode = process.env.MODE//process.argv.slice(2)[1]
+const mode = process.env.MODE //process.argv.slice(2)[1]
 const numCPUs = require('os').cpus().length
 const date = new Date().toLocaleString()
 

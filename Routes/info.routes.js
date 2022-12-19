@@ -7,6 +7,8 @@ const options = require('../options/config')
 const { fork } = require('child_process')
 const path = require('path')
 
+const logger = require('../utils/winston')
+
 //---------------- Process object -----------------
 const args = parseArgs(process.argv.slice(2))
 const host = options.options.HOST

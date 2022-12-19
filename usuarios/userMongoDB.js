@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Usuarios = require('../models/usuarios.models')
-
+const logger = require('../utils/winston.js')
 
 class ServerMongoDB {
     constructor() {
@@ -14,10 +14,12 @@ class ServerMongoDB {
                 useNewUrlParser: true,
                 useUnifiedTopology: true
             })
-            console.log('Connected to MongoDB Server')
+            logger.info('Connected to MongoDB Server')
+            //console.log('Connected to MongoDB Server')
             
         } catch (error) {
-            console.error('Error connection to DB: '+error)
+            logger.error('Error connecting to MongoDB Server' + error)
+            //console.error('Error connection to DB: '+error)
         }
     }
 
@@ -25,18 +27,22 @@ class ServerMongoDB {
         try {
             const newUser = new Usuarios(usuario)
             await newUser.save()
-            console.log('User created: ' + newUser)
+            logger.info('User created: ' + newUser)
+            //console.log('User created: ' + newUser)
         } catch (error) {
-            console.log(error)
+            logger.error(error)
+            //console.log(error)
         }
     }
 
     async getUser(){
         try {
             const users = await Usuarios.find()
-            console.log(users)
+            logger.info(users)
+            //console.log(users)
         } catch (error) {
-            console.log(error)
+            logger.error(error)
+            //console.log(error)
         }
     }
 

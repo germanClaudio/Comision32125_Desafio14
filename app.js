@@ -9,21 +9,10 @@ const app = initServer()
 const PORT = config.options.PORT //process.argv.slice(2)[0] || 4000
 const MODE = config.options.MODE //process.argv.slice(2)[1] || FORK
 
-//const logger = require('morgan')
-const winston = require('winston')
-
-const logger = winston.createLogger({
-   level: 'warn',
-   transports : [
-       new winston.transports.Console({ level:'verbose' }),
-       new winston.transports.File({ filename: 'info.log', level:'info' }),
-       new winston.transports.File({ filename: 'warn.log', level: 'warning' }),
-       new winston.transports.File({ filename: 'error.log', level: 'error' })
-   ]
-})
-
 // console.log('CPU: ',numCPUs)
 // console.log("mode: ", process.argv.slice(2)[1])
+
+const logger = require('./utils/winston.js')
 
 if (MODE == "CLUSTER" && cluster.isPrimary) {
         logger.info(`Primary process --> ${process.pid}`)
@@ -42,7 +31,6 @@ if (MODE == "CLUSTER" && cluster.isPrimary) {
 
         cluster.on('exit', (worker, coder, signal) => {
             logger.info('Worker: ',worker.process.pid, 'died', new Date().toLocaleString())
-            // console.log('Worker: ',worker.process.pid, 'died', new Date().toLocaleString())
             cluster.fork()
         })
     
@@ -70,6 +58,35 @@ if (MODE == "CLUSTER" && cluster.isPrimary) {
             //console.log('Error en Server: ',error)
         }
 }
+
+//////////////////////////////////////////////////////////////////////
+// comandos para ejecutar
+// node --prof server.js
+
+// curl -X GET "http://localhost:4000/newUser?username=marian&password=qwerty123"
+// artillery quick --count 20 -n 50 "http://localhost:4000/auth-bloq?username=marian&password=qwerty123" > result_bloq.txt
+
+// curl -X GET "http://localhost:8080/newUser?username=dani&password=dani123"
+// artillery quick --count 20 -n 50 "http://localhost:4000/auth-nobloq?username=dani&password=dani123" > result_nobloq.txt
+
+// decodificar archivos log
+// node --prof-process bloq-v8.log > result_prof_bloq.txt
+// node --prof-process nobloq-v8.log > result_prof_nobloq.txt
+
+
+// node --inspect server.js
+
+//chrome://inspect
+
+// El generador de perfiles se basa en el muestreo. Es decir, se despierta a
+// intervalos regulares (ticks) y registra dónde está el puntero de instrucción. Si la
+// IP apunta a una dirección que no se puede resolver en una función, la
+// marca se informa como no contabilizada.
+
+////////////////////////////////////////////////////////////////////////////
+
+
+
 
 //pm2 ----------------------------------------------------------------
 // pm2 start app.js --name="Server#1" --watch -- PORT
