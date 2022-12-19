@@ -23,6 +23,6 @@ const run = (url) => {
   });
 };
 
-console.log("Running all benchmarks in parallei...")
+console.log("Running all benchmarks in parallel...")
 run( "http://localhost:4000/auth-nobloq?username=dani&password=qwerty123")
 run( "http://localhost:4000/auth-bloq?username=dani&password=qwerty123")

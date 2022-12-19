@@ -70,3 +70,36 @@
 {"level":"info","message":"Worker 27540 started"}
 {"level":"info","message":"Mode: undefined"}
 {"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #35504 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 35504 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #38884 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 38884 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #34740 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 34740 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #20520 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 20520 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #32972 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 32972 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"warn","message":"Salida con codigo de error: : 1"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #36064 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 36064 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"warn","message":"Salida con codigo de error: : 1"}
