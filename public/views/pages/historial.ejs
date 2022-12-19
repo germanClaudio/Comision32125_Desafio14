@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <%- include('../partials/header'); %>
+    <!-- <div class="d-block mx-auto my-3 w-75 text-center alert alert-success h5" role="alert" id="mostrarUserName">Usuario: %= username %></div> -->
+        <h2 class="d-block mx-auto my-3 text-center">History</h2>
+        <div class="d-block mx-auto mb-3 text-center w-75">
+        <%- include('../partials/dataTable'); %>
+        </div>
+            <div class="d-block mx-auto my-4 pb-5 text-center">
+                <a class="btn btn-primary my-2" href="/api/auth/login"> Back to Home </a>
+            </div>
+            <footer>
+                <%- include('../partials/footer'); %>
+            </footer>
+<!--    scripts     -->
+<script type="text/javascript" src="/historial.js"></script>
+<!-- <script type="text/javascript" src="../../../src/routes/session/session.routes.js"></script> -->
+
+</body>
+
+</html>

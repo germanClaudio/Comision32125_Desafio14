@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <header>
+        <%- include('../partials/headerLogin'); %>
+    </header>
+    <div class="container mt-3 mx-auto">
+        <h3 class="d-block mx-auto my-3 text-center">Login</h3>
+        <%- include('../partials/formularioLogin'); %>
+    </div>
+    <div class="alert alert-dark mx-auto my-4 text-center w-25">
+        <a href="/api/auth/github" class="btn btn-success mx-auto my-3">Entrar con github</a><br>
+        <a href="/api/auth/register" class="btn btn-primary mx-auto my-3">Register</a>
+    </div>
+    <br>
+
+    <% if (!flag) { %>
+        <div class="alert alert-success mx-auto my-4 text-center w-25" id="alert">No tienes usuario? Registrate! Es gratis!!</div>
+    <% } else { %>
+        <div class="alert alert-warning mx-auto my-4 text-center w-25" id="alert">Usuario <strong><%=username%></strong> registrado con exito!</div
+    <% } %>
+    
+    
+    <%- include('../partials/footer'); %>
+        <!--    scripts     -->
+        <script type="text/javascript" src="../../login.js"></script>
+        <script type="text/javascript" src="../../../src/routes/session/session.routes.js"></script>
+        
+</body>
+
+</html>

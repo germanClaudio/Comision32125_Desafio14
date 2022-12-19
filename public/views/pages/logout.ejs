@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <header>
+        <%- include('../partials/headerLogin'); %>
+    </header>
+    <div class="container mt-3 mx-auto">
+        <h3 class="d-block alert alert-danfer mx-auto my-3 text-center">Eyyy!!... You are Logged Out!!!<br>We'll miss you!</h3>
+    </div>
+    <div class="alert alert-dark mx-auto my-4 text-center w-25">
+        <a href="/api/auth/login" class="btn btn-success mx-auto my-3">Go back to Login</a><br>or<br>
+        <a href="/api/auth/register" class="btn btn-primary mx-auto my-3">Register</a>
+    </div>
+    <br>
+    <%- include('../partials/footer'); %>
+        <!--    scripts     -->
+        <script type="text/javascript" src="../../../src/routes/session/session.routes.js"></script>
+        
+</body>
+
+</html>

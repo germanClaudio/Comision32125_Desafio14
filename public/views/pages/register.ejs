@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <header>
+        <%- include('../partials/headerLogin'); %>
+    </header>
+    <div class="container mt-3 mx-auto">
+        <h3 class="d-block mx-auto my-3 text-center">Register your User</h3>
+        <%- include('../partials/formularioRegister'); %>
+    </div>
+    
+    <% if (!flag) { %>
+        <div class="alert alert-success mx-auto mb-5 text-center w-25" id="alert">Registrate!! Es gratis!!</div>
+    <% } else if (!flag || !usuario) { %>    
+        <div class="alert alert-warning mx-auto mb-5 text-center w-25" id="alert">Usuario <strong><%=username%></strong> no existe o<br>Password incorrecto!</div>
+    <% } else { %>
+        <div class="alert alert-warning mx-auto mb-5 text-center w-25" id="alert">User Name <strong><%=username%></strong> ya existe!!<br>Registra uno nuevo!</div>
+    <% } %>
+
+    <div class="alert alert-dark mx-auto mt-5 mb-5 text-center w-25">
+        <a href="/api/auth/github" class="btn btn-success mx-auto my-3">Entrar con github</a><br>
+        <a href="/api/auth/login" class="btn btn-secondary mx-auto my-3">Volver</a>
+    </div>
+    <br>
+    
+
+
+    <%- include('../partials/footer') %>
+
+    <!--    scripts     -->
+        <script type="text/javascript" src="../../register.js"></script>
+        <script type="text/javascript" src="../../../src/controllers/session/session.controllers.js"></script>
+        
+</body>
+
+</html>

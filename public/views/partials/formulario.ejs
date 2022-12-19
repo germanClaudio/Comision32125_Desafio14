@@ -1,0 +1,20 @@
+<div class="form-group col-4 mx-auto my-2 w-25 border p-3 bg-dark bg-gradient text-white bg-opacity-75">
+    <form onsubmit="return addProduct(this)">
+        <fieldset>
+            <h4 class="d-block mx-auto my-2 text-center">New Product</h4>
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" class="form-control" placeholder="Title Product" required>
+            <br>
+            <label for="price">Price ($)</label>
+            <input type="text" name="price" id="price" class="form-control" placeholder="Ex. 150" required>
+            <br>
+            <label for="thumbnail">Picture URL</label>
+            <input type="text" name="thumbnail" id="thumbnail" class="form-control" placeholder="Picture url" required>
+            <br>
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary mx-auto">Save Product <i class="fa fa-save"></i></button>
+                <button type="reset" class="btn btn-danger mx-auto">Reset</button>
+            </div>
+        </fieldset>
+    </form>
+</div>

@@ -1,0 +1,52 @@
+<div class="form-group col-4 mx-auto mt-3 mb-0 w-50 border p-5 bg-warning bg-gradient text-dark">
+    <form class="form" onsubmit="return addMessage(this)">
+        <fieldset>
+            <h4 class="d-block mx-auto mb-2 text-center">WebSocket Chat</h4>
+            
+                <label for="author">Author Email</label><br>
+                <div class="input-group mb-3">
+                    <div class="input-group-text">@</div>
+                    <input class="form-control" type="email" name="author" id="author"
+                        placeholder="Enter your em@il address"></input><br>
+                </div>
+                
+                <div class="input-group mb-3">
+                    <div class="input-group-text">Name</div>
+                    <input class="form-control" type="text" name="nombre" id="nombre"
+                    placeholder="Enter your name"></input><br>
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-text">LastName</div>
+                    <input class="form-control" type="text" name="apellido" id="apellido"
+                    placeholder="Enter your last Name"></input><br>
+                </div>
+                
+                <div class="input-group mb-3">
+                    <div class="input-group-text">Age</div>
+                    <input class="form-control" type="text" name="edad" id="edad" placeholder="Enter your Age"></input><br>
+                </div>
+                
+                <div class="input-group mb-3">
+                    <div class="input-group-text">Alias</div>
+                    <input class="form-control" type="text" name="alias" id="alias"
+                    placeholder="Enter your Alias"></input><br>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-text">Avatar</div>
+                    <input class="form-control" type="text" name="avatar" id="avatar"
+                    placeholder="Enter your Avatar URL"></input><br>
+                </div>
+            
+            <br>
+
+            <div class="input-group mb-3">
+                <input class="form-control" type="text" name="texto" id="texto"
+                    placeholder="Put something nice here"></input>
+                <button class="btn btn-primary ms-3 text-nowrap" name="botonMensaje" id="botonMensaje">Send <i
+                        class="fa fa-paper-plane"></i></button>
+            </div>
+</div>
+</fieldset>
+</form>
+</div>

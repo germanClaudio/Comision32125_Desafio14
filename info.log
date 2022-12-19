@@ -1,0 +1,18 @@
+{"level":"info","message":"Process ID: #28868 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 28868 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Process ID: #28908 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 28908 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Process ID: #32492 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 32492 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Process ID: #15796 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 15796 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}

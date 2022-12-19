@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Práctico Granito Pantalones",
+    "price": 133,
+    "thumbnail": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1000.jpg",
+    "id": 1
+  },
+  {
+    "title": "Fantástico Hormigon Silla",
+    "price": 158,
+    "thumbnail": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1206.jpg",
+    "id": 2
+  },
+  {
+    "title": "Sorprendente Madera Gorro",
+    "price": 75,
+    "thumbnail": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/464.jpg",
+    "id": 3
+  },
+  {
+    "title": "Inteligente Granito Pollo",
+    "price": 172,
+    "thumbnail": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/292.jpg",
+    "id": 4
+  },
+  {
+    "title": "Perfume Barcelona",
+    "price": 133,
+    "thumbnail": "http://localhost:4000/Perfume_4.jpg",
+    "id": 5
+  },
+  {
+    "title": "Perfume Te fuiste a la B por puto y cagón",
+    "price": 122,
+    "thumbnail": "http://localhost:4000/Perfume_3.jpg",
+    "id": 6
+  }
+]

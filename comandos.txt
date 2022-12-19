@@ -1,0 +1,14 @@
+nodemon app.js 8081 FORK
+nodemon app.js 8081 CLUSTER
+
+forever start app.js 8081 FORK
+forever start app.js 8182 CLUSTER
+forever list
+
+
+pm2 start app.js FORK
+pm2 start app.js CLUSTER
+
+
+pm2 start app.js --name="Server#2" --watch -- 8081 FORK
+pm2 start app.js --name="Server#2" --watch -i 4 -- 8081 CLUSTER

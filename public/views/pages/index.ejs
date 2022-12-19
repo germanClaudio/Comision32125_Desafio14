@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+    <div class="d-block mx-auto my-3 w-75 text-center alert alert-success h5" role="alert" id="mostrarUserName">Bienvenido usuario: <%= username %></div>
+    <h3 class="d-block mx-auto my-2 text-center">Load your Products</h3>
+    <%- include('../partials/formulario'); %>
+        <br>
+        <h3 class="d-block mx-auto my-2 text-center">History</h3>
+        <div class="d-block mx-auto mb-3 text-center w-75">
+            <%- include('../partials/dataTable'); %>
+        </div>
+        <hr>
+        <%- include('../partials/formularioChat'); %>
+            <br>
+            <%- include('../partials/dataMsg'); %>
+                <br>
+                <%- include('../partials/footer'); %>
+
+                    <!--    scripts     -->
+                    <script type="text/javascript" src="../../index.js"></script>
+                    <!-- <script type="text/javascript" src="../../../src/routes/session/session.routes.js"></script> -->
+</body>
+
+</html>

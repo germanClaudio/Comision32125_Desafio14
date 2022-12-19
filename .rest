@@ -1,0 +1,40 @@
+### login post
+POST http://localhost:4000/api/auth/login HTTP/1.1
+Content-type: application/json
+
+{
+    "username": "Federico",
+    "password": "123456",
+    "admin": "true"
+}
+
+###
+POST http://localhost:4000/api/auth/register HTTP/1.1
+Content-type: application/json
+
+{
+    "username": "Puma",
+    "password": "1234",
+    "admin": "true"
+}
+
+###
+GET http://localhost:4000/api/productos HTTP/1.1
+
+###
+GET http://localhost:4000/api/auth/logout HTTP/1.1
+
+
+
+###
+POST http://localhost:4000/api/productos HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "Producto 1",
+  "precio": 100,
+  "thumbnail": "https://m.media-amazon.com/images/I/51XS20NbJnL._AC_UL320_.jpg"
+}
+
+
+
