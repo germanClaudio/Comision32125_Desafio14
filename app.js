@@ -6,7 +6,7 @@ const initServer = require("./server")
 const config = require("./options/config.js")
 
 const app = initServer()
-const PORT = config.options.PORT //process.argv.slice(2)[0] || 4000
+const PORT = config.options.PORT || 4000 //process.argv.slice(2)[0] || 4000
 const MODE = config.options.MODE //process.argv.slice(2)[1] || FORK
 
 // console.log('CPU: ',numCPUs)
