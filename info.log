@@ -103,3 +103,27 @@
 {"level":"info","message":"Mode: undefined"}
 {"level":"info","message":"Numero de CPUs: 8"}
 {"level":"warn","message":"Salida con codigo de error: : 1"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #32040 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 32040 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"info","message":"User created: {\n  name: 'Peter',\n  lastName: 'Kantropus',\n  email: 'pkantro@gmail.com',\n  username: 'peter',\n  password: '$2b$10$pc25Cl0D8MgcWnjqPLXXLeywF9IPc3KVbG4DTD2V6C5te1COm9p46',\n  _id: new ObjectId(\"63a2edac8a39a0d0b9bc2528\"),\n  __v: 0\n}"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"warn","message":"Salida con codigo de error: : SIGINT"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #29876 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 29876 started"}
+{"level":"info","message":"Mode: undefined"}
+{"level":"info","message":"Numero de CPUs: 8"}
