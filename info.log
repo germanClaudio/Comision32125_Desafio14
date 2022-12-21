@@ -152,3 +152,8 @@
 {"level":"error","message":"No existe la ruta"}
 {"level":"error","message":"No existe la ruta"}
 {"level":"error","message":"No existe la ruta"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #35464 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 35464 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
