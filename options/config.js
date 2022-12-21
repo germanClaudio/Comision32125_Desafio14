@@ -22,8 +22,8 @@ const options = {
     useNullAsDefault: true
   },
   HOST: process.env.HOST || 'localhost',
-  PORT: process.argv.slice(2)[0] || 4000,
-  // MODE: process.argv.slice(2)[1] || FORK
+  PORT: 4000, //process.argv.slice(2)[0] || 4000,
+  MODE: "CUSTER" //process.argv.slice(2)[1] || FORK
 }
 
   module.exports = {
