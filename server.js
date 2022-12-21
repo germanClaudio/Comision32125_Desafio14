@@ -49,6 +49,7 @@ const initServer = () => {
     const io = new IOServer(httpServer)
 
     app.use(compression())
+    app.use(cors())
 
     /////////////////////// configuracion de EJS /////////////////////////
     app.set('view engine', 'ejs')
@@ -81,7 +82,7 @@ const initServer = () => {
     app.use(passport.initialize())
     app.use(passport.session())
 
-    // app.use(express.static('public'))
+    //app.use(express.static('public'))
     app.use(express.static('src/images'))
     app.use(express.json())
     app.use(express.urlencoded({ extended: true }))
@@ -171,11 +172,11 @@ const initServer = () => {
         });
     });
 
-    app.use('*', (req, res)=>{
-      const { url, method} = req
-      logger.error('No existe la ruta')
-      res.send(`No existe la ruta especificada: ${url} - con el método : ${method}`)
-  })
+  //   app.use('*', (req, res)=>{
+  //     const { url, method} = req
+  //     logger.error('No existe la ruta')
+  //     res.send(`No existe la ruta especificada: ${url} - con el método : ${method}`)
+  // })
   
 
     ///////////////////////////////////////////////////////

@@ -56,6 +56,7 @@ function makeHtmlList(mensajes) {
 }
 
 // --------------  Products ----------------
+
 socket.on('productsAll', async (arrProd) => {
     renderProduct(await arrProd)
 })

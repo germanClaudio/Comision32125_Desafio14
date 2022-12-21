@@ -1,21 +1,21 @@
 const { Router } = require('express')
 const { authMiddleware } = require('../middlewares/auth.middleware')
-// const { checkAtuhentication } = require('../middlewares/chekAuthentication')
-const Products = require('../daos/productos/ProductosDaoArchivo') //'../services/productos.js'
+const { checkAtuhentication } = require('../middlewares/chekAuthentication')
+const Products = require('../daos/productos/ProductosDaoArchivo.js') //'../services/productos.js'
 
 const routerfProductos = Router()
 const products = new Products()
 
-const checkAtuhentication = (req, res, next) => {
-    //console.log(req.isAuthenticated())
-    if (req.isAuthenticated()) return next();
-    res.redirect("/api/auth/login");
-}
+// const checkAtuhentication = (req, res, next) => {
+//     //console.log(req.isAuthenticated())
+//     if (req.isAuthenticated()) return next();
+//     res.redirect("/api/auth/login");
+// }
 
 routerfProductos.get('/', checkAtuhentication, (req, res) => {
     // console.log(req.session.visits)
     // const productos = new Products
-    const productos = products.getAllProducts()//getProducts()
+    const productos = products.getAllProducts()   //getProducts()
     if(productos.error) res.status(200).json({msg: 'No hay productos cargados'}) 
     res.render('index.ejs' , { username: req.session.user, visitas: req.session.visits })
     //res.status(200).json(productos)

@@ -163,3 +163,149 @@
 {"level":"info","message":"Mode: CUSTER"}
 {"level":"info","message":"Numero de CPUs: 8"}
 {"level":"error","message":"No existe la ruta"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #9432 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 9432 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #21416 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 21416 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"error","message":"No existe la ruta"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #1312 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 1312 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #40356 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 40356 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #15976 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 15976 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #26304 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 26304 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #34560 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 34560 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #6776 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 6776 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #27028 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 27028 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #29152 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 29152 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #19812 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 19812 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #24560 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 24560 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #12944 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 12944 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #20028 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 20028 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #40704 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 40704 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #33796 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 33796 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #21348 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 21348 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #26360 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 26360 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #35384 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 35384 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #36260 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 36260 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #14068 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 14068 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #30896 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 30896 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #10768 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 10768 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #25540 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 25540 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #1744 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 1744 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #14556 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 14556 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #19656 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 19656 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #21940 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 21940 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}

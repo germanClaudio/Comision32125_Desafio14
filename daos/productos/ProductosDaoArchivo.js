@@ -1,15 +1,15 @@
-const ContainerArchivo = require("../../contenedores/containerArchivo");
+const ContainerArchivo = require("../../contenedores/containerArchivo.js");
 const fs = require("fs")
 
 class ProductosDaoArchivo extends ContainerArchivo {
   constructor() {
-    super("DB/productos.json")
+    super('DB/productos.json')
   }
 
   async getAllProducts() {
     const fileContent = await this.readFile()
     if (fileContent.length !== 0) {
-      // console.table(fileContent)
+      //console.table(fileContent)
       return fileContent;
     } else {
       console.log("Lo sentimos, la lista de Productos está vacía!!!");
