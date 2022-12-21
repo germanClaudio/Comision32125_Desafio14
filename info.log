@@ -157,3 +157,9 @@
 {"level":"info","message":"Worker 35464 started"}
 {"level":"info","message":"Mode: CUSTER"}
 {"level":"info","message":"Numero de CPUs: 8"}
+{"level":"info","message":"Connected to MongoDB Server"}
+{"level":"info","message":"Process ID: #33476 - Escuchando en el puerto 4000"}
+{"level":"info","message":"Worker 33476 started"}
+{"level":"info","message":"Mode: CUSTER"}
+{"level":"info","message":"Numero de CPUs: 8"}
+{"level":"error","message":"No existe la ruta"}
